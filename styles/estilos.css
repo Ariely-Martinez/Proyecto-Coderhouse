@@ -94,13 +94,6 @@ h2 {
   width: 200px;
   height: 200px; }
 
-/* .displayFlex {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-content: stretch;
-  
-} */
 .gridSection {
   display: grid;
   grid-template-columns: 40%;
