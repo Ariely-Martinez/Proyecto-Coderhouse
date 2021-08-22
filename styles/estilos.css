@@ -73,6 +73,7 @@ header nav ul a {
   text-align: left;
   margin-top: 30px;
   margin-bottom: 30px;
+  margin-left: 20px;
   font-size: 40px;
   font-family: "Archivo Black"; }
 
@@ -204,7 +205,11 @@ header nav ul a {
     margin: 0px;
     padding: 0px; }
   .imagenesdelmain {
-    width: 250px; } }
+    width: 350px; }
+  .tamañoimagenescarrousel {
+    height: 200px; }
+  .tamañoimgbody {
+    height: 75px; } }
 
 /*Animacionesxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 @keyframes logoMoviendose {
