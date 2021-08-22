@@ -29,13 +29,12 @@ body {
 
 .colorFooter {
   background-color: black;
-  height: 200px; }
+  height: 250px; }
 
-.estiloDelfooter img {
-  width: 40px;
-  height: 40px;
-  margin-top: 80px;
-  margin-bottom: 20px; }
+.tamañoimgdelfooter {
+  width: 50px;
+  height: 50px;
+  margin: 20px; }
 
 .bannerredlips {
   width: 100%; }
@@ -58,8 +57,12 @@ header nav ul a {
   font-weight: bold; }
 
 /* estilos main  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-h2 {
-  color: #F0B47E; }
+.tamañoimgbody {
+  height: 40%; }
+
+.descripcionbajomenu {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .tamañoimagenescarrousel {
   width: 100%;
@@ -70,7 +73,6 @@ h2 {
   text-align: left;
   margin-top: 30px;
   margin-bottom: 30px;
-  margin-left: 20px;
   font-size: 40px;
   font-family: "Archivo Black"; }
 
@@ -82,13 +84,17 @@ h2 {
   list-style-position: outside;
   align-content: center; }
 
+.tamañofaceimg {
+  width: 300px;
+  height: 400px; }
+
 .articulosDeMakeup {
   width: 400px;
-  margin: 10px; }
+  margin: 15px; }
 
-.articulosDeMakeup img {
-  width: 350px;
-  height: 300px; }
+.articulosDeMakeup_img {
+  width: 300px;
+  height: 400px; }
 
 .makeupToolsimagenes img {
   width: 200px;
@@ -104,12 +110,12 @@ h2 {
 
 .tamañolips {
   width: 280px;
-  height: 500px;
+  height: 450px;
   margin: 20px; }
 
 .tamañoskincare {
   width: 280px;
-  height: 590px;
+  height: 450px;
   margin: 15px; }
 
 .tamañoproductoslips {
@@ -122,16 +128,41 @@ h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   border: none;
-  background: white;
-  border: black solid 1px;
-  font-family: "Mate SC";
-  font-weight: 700; }
-
-.estiloBoton:hover {
-  background-color: black;
+  background: black;
+  border: white 1px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 650;
   color: white; }
 
+.estiloBoton:hover {
+  text-decoration-color: #ff00aa;
+  background-color: #ff00aa; }
+
 /*estilos footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+.derechosreservados {
+  color: white;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  margin-left: 20px; }
+
+.formulario {
+  margin: 0px; }
+
+.fondodecolorform {
+  background-color: #ff00aa; }
+
+.stayintheknowestilo {
+  color: white;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Archivo Black"; }
+
+.descripcionbajoform {
+  color: white;
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
 .imagenesdelmain {
   width: 350px;
   height: 500px;
@@ -158,8 +189,6 @@ h2 {
     display: none; }
   .alineamientoMenu {
     padding-top: 15px; }
-  .formulario {
-    display: none; }
   .estilobotonpantallatablet {
     display: block;
     display: inline-block; } }
@@ -170,7 +199,12 @@ h2 {
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  .hoverMenu {
+    margin: 0px;
+    padding: 0px; }
+  .imagenesdelmain {
+    width: 250px; } }
 
 /*Animacionesxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 @keyframes logoMoviendose {
