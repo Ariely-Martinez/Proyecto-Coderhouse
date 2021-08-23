@@ -205,11 +205,15 @@ header nav ul a {
     margin: 0px;
     padding: 0px; }
   .imagenesdelmain {
-    width: 350px; }
+    width: 250px; }
   .tamañoimagenescarrousel {
     height: 200px; }
   .tamañoimgbody {
-    height: 75px; } }
+    height: 75px; }
+  .estilosdelinicio {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px; } }
 
 /*Animacionesxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 @keyframes logoMoviendose {
